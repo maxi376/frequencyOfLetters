@@ -5,11 +5,7 @@ public class FrequencyOfLetters {
         int n = 30;
         int[] F=new int[52];
         Arrays.fill(F,0);
-        /*for(int i=0;i<52;i++)
-            System.out.print(F[i]+" ");
-
-        System.out.println();*/
-        //
+        
         F= FrequencyOfLetters.frequencyOfLetters(s,n);
         for(int i=0;i<26;i++)
             System.out.print((char)(i+65)+" ");
